@@ -218,4 +218,8 @@ __marimo__/
 .streamlit/secrets.toml
 
 # dataset 
-.data/
+.data/steamer_reviews.csv
+
+.DS_Store
+
+
