@@ -219,6 +219,8 @@ __marimo__/
 
 # dataset 
 .data/steamer_reviews.csv
+data/*.csv
+data/*.zip
 
 .DS_Store
 
