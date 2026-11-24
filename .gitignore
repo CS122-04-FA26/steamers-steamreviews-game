@@ -219,7 +219,7 @@ __marimo__/
 
 # dataset 
 # Ignore all data files anywhere under data/, but keep README/docs
-data/main/*.csv
+data/clean/*.csv
 data/raw/*.csv
 
 .DS_Store
