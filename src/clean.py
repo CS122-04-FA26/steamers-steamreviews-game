@@ -44,12 +44,4 @@ clean = con.execute("""
 """).fetch_df()
 
 clean.to_csv(DATA / 'clean_sample.csv', index=False)
-
-print(con.execute("""
-    SELECT COUNT(*)
-    FROM english_reviews
-    WHERE review IS NULL
-       OR LOWER(TRIM(CAST(review AS VARCHAR)))
-          IN ('', 'nan', 'null', 'none');
-""").fetchone())
 con.close()
